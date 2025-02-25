@@ -90,7 +90,7 @@ const Weather = () => {
                                     <i class="bi bi-caret-up-square-fill"></i>
                                     <div className="item-max-text">
                                         <small>Temp. Máx</small> 
-                                        <small>{list.main.temp_max}</small>
+                                        <small>{parseInt(list.main.temp_max * 1.6)}</small>
                                     </div>
                                 </div>
                                 <div className="item-max">
